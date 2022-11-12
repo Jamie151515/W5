@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet/all.css" />
+    <title>Invoice_1</title>
+
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container px-md-3">
+        <a class="navbar-brand-lg d-md-block d-none" href="#">
+            <img
+            src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/student-week1/logo-all-dark.svg"
+            alt=""
+            height="40"
+            />
+        </a>
+        <a class="navbar-brand-sm d-md-none d-block order-2" href="#">
+            <img
+            src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/student-week1/logotype-lg-dark.svg"
+            alt=""
+            height="17"
+            />
+        </a>
+        <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link link-primary" href="/index.html">首頁</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link link-primary" href="/product_list.html">甜點</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link link-primary" href="/log_in.html">登入</a>
+            </li>
+            </ul>
+        </div>
+        <div class="nav-cart ms-5 order-3">
+                <a href="#">
+                <img
+                    src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/shopping_cart.png?raw=true"
+                    alt=""
+                    width="24"
+                    height="24"
+                /></a>
+        </div>
+    </div>
+    </nav>
+
+    <section class="my-md-6">
+        <div class="p-0 p-md-2">
+            <div class="row mx-md-8 gx-4 mx-0">
+                <div class="col-md-7 p-0 bg-primary">
+                    <div class="container px-5 py-5">
+                        <div class="d-flex justify-content-between align-items-center mb-5">
+                            <h2 class="text-tietary">發票</h2>
+                            <img src="/sweetaste_img/bar_invoice.svg" height="20" alt="">
+                        </div>
+                        <div class="row gy-3 gx-2">
+                            <div class="col-12 mb-5">
+                                <div class="row gx-0">
+                                    <div class="col-6 py-3 px-5 px-md-6 bg-tietary text-center text-nowrap">
+                                        <h5 class="mb-0">電子發票</h5>
+                                    </div>
+                                    <div class="col-6 py-3 px-5 px-md-6 bg-primary text-center text-tietary text-nowrap border border-tietary">
+                                        <h5 class="mb-0">郵寄發票</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <label for="validationCustom01" class="form-label">電子郵件信箱</label>
+                                <input type="text" placeholder="example@email.com" class="form-control" id="validationCustom01" required>
+                                <div class="valid-feedback">
+                                Looks good!
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <label for="validationCustom01" class="form-label">統一編號（選填）</label>
+                                <input type="text" placeholder="12345678" class="form-control" id="validationCustom01" required>
+                                <div class="valid-feedback">
+                                Looks good!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-accent py-3 text-center">
+                        <h4 class="mb-0">確認結帳</h4>
+                    </div>
+                </div>
+
+                <div class="col-md-5 d-none d-md-block">
+                    <ul class="list-group border-tietary border-1 mb-4">
+                        <li class="list-group-item active bg-tietary border-0 text-secondary fs-4 text-center fw-bold py-3" aria-current="true">訂單摘要</li>
+                        <li class="list-group-item">
+                            <div class="d-flex justify-content-between">
+                                <p>小計</p>
+                                <p>NT$ 2,700</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p>運費</p>
+                                <p>NT$ 300</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <h5>總計</h5>
+                                <h5>NT$ 3,000</h5>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="list-group border-tietary border-1">
+                        <li class="list-group-item active bg-tietary border-0 text-secondary fs-4 text-center fw-bold py-3" aria-current="true">購物清單</li>
+                        <li class="list-group-item">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <img class="object-fit" src="/sweetaste_img/p-8.jpg" height="80" width="120" alt="">
+                                <div class="d-flex flex-column">
+                                    <p class="mb-0 fw-light">焦糖馬卡龍（2）</p>
+                                    <h5>NT$ 900</h5>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <img class="object-fit" src="/sweetaste_img/p-5.png" height="80" width="120" alt="">
+                                <div class="d-flex flex-column">
+                                    <p class="mb-0 fw-light">焦糖馬卡龍（2）</p>
+                                    <h5>NT$ 900</h5>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <img class="object-fit" src="/sweetaste_img/p-3.png" height="80" width="120" alt="">
+                                <div class="d-flex flex-column">
+                                    <p class="mb-0 fw-light">焦糖馬卡龍（2）</p>
+                                    <h5>NT$ 900</h5>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="py-5 bg-primary">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-md-5 d-flex justify-content-center align-items-center mb-5 mb-md-0">
+                    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/student-week1/logo-light.svg"  width="40" height="40" alt="">
+                    <p class="text-tietary fs-4 mx-4 mb-0">訂閱你我的甜蜜郵件</p>
+                </div>
+                <div class="col-md-5">
+                    <div class="input-group d-flex flex-nowrap align-items-center">
+                        <span class="input-group-text bg-tietary border-0 py-4" id="addon-wrapping"><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/mail-24px.png?raw=true" alt=""></span>
+                        <input type="text" class="form-control bg-tietary border-0 py-4" placeholder="" aria-label="Username" aria-describedby="addon-wrapping">
+                        <span class="input-group-text bg-accent border-0 py-4" id="addon-wrapping"><img src="https://github.com/hexschool/webLayoutTraining1st/blob/master/student-week1/arrow_forward-24px.png?raw=true" alt=""></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-tietary py-5">
+        <div class="container px-5 px-md-0">
+            <div class="row justify-content-center">
+                <div class="col-md-5 d-flex flex-column justify-content-between align-items-start">
+                    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/student-week1/logotype-sm-dark.svg" height="27" alt="">
+                    <ul class="list-unstyled mt-5">
+                        <li>07-1234-5678</li>
+                        <li><a href="mailto:sweetaste@email.com"></a>sweetaste@email.com</li>
+                        <li>800 高雄市新興區幸福路 520 號</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-5 d-flex d-none d-md-block">
+                    <img class="float-end" src="/sweetaste_img/text-sm.svg" height="218" alt="">
+                </div>
+            </div>
+
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-5 mt-2">
+                    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/student-week1/ic-line%40.svg" height="32" alt="">
+                    <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/student-week1/ic-facebook.svg" height="32" alt="">
+                </div>
+
+                <div class="col-md-5 mt-2 text-md-end mt-5">
+                    <p>© 2018 Sweetaste* All Rights Reserved</p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+</body>
+</html>
