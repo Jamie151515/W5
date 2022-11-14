@@ -23,12 +23,16 @@
   text-align: justify;
 }
 
+.text-height{
+  height: 400px;
+}
+
 .object-fit{
   object-fit: cover;
 }
 
 @media(max-width:768px){
-	.vertical-text{
+	.vertical-text {
     writing-mode: horizontal-tb;
   }
 }
