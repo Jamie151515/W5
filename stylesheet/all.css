@@ -15903,6 +15903,9 @@ textarea.form-control-lg {
     -ms-writing-mode: lr-tb;
         writing-mode: horizontal-tb;
   }
+  .text-height {
+    height: 252px;
+  }
 }
 /* banner */
 .banner {
